@@ -98,3 +98,36 @@ b = bool("abc")  # True
 print(b)
 c = bool("")  # False
 print(c)
+bool(1)  # True
+d = bool(1)  # True
+print(d)
+bool(-1)  # True
+e = bool(-1)  # True
+print(e)
+f = bool("false")  # True
+print(f)
+
+
+# comparison operators
+10 == 10  # True
+10 != 5  # True
+10 > 5  # True
+10 < 20  # True
+2 > 10  # False
+5 <= 5  # True
+5 >= 10  # False
+10 >= 5  # True
+10 == "10"  # False
+10 != "10"  # True
+10 != 10.0  # False
+10 != 5.0  # True
+"bag" > "apple"  # True
+"bag" < "apple"  # False
+"bag" == "BAG"  # False
+
+# Conditional Statement
+temperature = 15
+if temperature > 30:
+    print("It's a hot day")
+    print("Drink plenty of water")
+print("Enjoy your day")
