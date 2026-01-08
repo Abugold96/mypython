@@ -81,10 +81,20 @@ print(abs(-2.9))
 print(math.ceil(2.2))
 
 # Input Function
-x = input("x: ")
-y = (int(x)) + 1
-print(f"x: {x}, y: {y}")
+# x = input("x: ")
+# y = (int(x)) + 1
+# print(f"x: {x}, y: {y}")
 # int(x)
 # float(x)
 # bool(x)
 # str(x)
+
+# falsy_values = [0, 0.0, "", None, False]
+# truthy_values = [1, -1, 0.1, "abc", True, [1, 2, 3]]
+
+a = bool(0)  # False
+print(a)
+b = bool("abc")  # True
+print(b)
+c = bool("")  # False
+print(c)
