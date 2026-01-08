@@ -1,0 +1,90 @@
+import math
+Students_count = 2000
+print("Total number of students:", Students_count)
+rating = 4.99
+is_published = True
+course_name = "Python Programming"
+
+print("Course Name:", course_name)
+print("Course Rating:", rating)
+print("Is the course published?", is_published)
+print("Data Types:")
+print(len(course_name))
+print(course_name[0])
+print(course_name[2])
+print(course_name[-1])
+print(course_name[0:5])
+print(course_name[0:])
+print(course_name[:6])
+print(course_name[:])
+course = "Python \"Programming"
+print(course)
+course = "Python \Programming"
+print(course)
+course = "Python \nProgramming"
+print(course)
+first_name = "Abubakar"
+last_name = "Bello"
+full_name = first_name + " " + last_name
+print(full_name)
+full_name = f"{first_name}{last_name}"
+print(full_name)
+
+full_name = f"{len(first_name)} {last_name}"
+print(full_name)
+
+
+full_name = f"{len(first_name)} {3 + 3}"
+print(full_name)
+
+course = "  Python Programming"
+print(course.upper())
+
+course_capital = course.upper()
+print("Capitalized Course:", course_capital)
+
+course_small = course.lower()
+print("Small Course:", course_small)
+
+print("Title Case Course:", course.title())
+
+
+print("Stripped Course:", course.strip())
+print("Position of 'Pro':", course.find("Pro"))
+
+course_replace = course.replace("P", "J")
+print("Replaced Course:", course_replace)
+
+print("Pro" in course)
+
+print("Java" not in course)
+print("Pro" not in course)
+
+
+# Arithmetic Operations
+x = 1
+x = 1.1
+x = 1 + 2j  # a + bi
+
+print(3+5)
+print(10 - 2)
+print(4 * 2)
+print(10 / 3)
+print(10 // 3)
+print(10 % 3)
+print(10 ** 4)
+
+print(round(2.9))
+
+print(abs(-2.9))
+
+print(math.ceil(2.2))
+
+# Input Function
+x = input("x: ")
+y = (int(x)) + 1
+print(f"x: {x}, y: {y}")
+# int(x)
+# float(x)
+# bool(x)
+# str(x)
