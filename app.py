@@ -143,13 +143,49 @@ print("Enjoy your day")
 # else:
 #    print("You are not eligible for admission")
 
-age = 19
-if age >= 18:
-    message = "You are eligible for admission"
+# age = 19
+# if age >= 18:
+#     message = "You are eligible for admission"
+# else:
+#     message = "You are not eligible for admission"
+# print(message)
+
+# age = 12
+# message = "You are eligible for admission" if age >= 18 else "You are not eligible for admission"
+# print(message)
+
+# logical operators
+high_income = True
+good_credit = True
+student = True
+# if high_income and good_credit:
+#     print("Eligible for loan")
+# else:
+#     print("Not eligible for loan")
+# if high_income or good_credit:
+#     print("Eligible for loan")
+# if not student:
+#     print("Eligible for loan")
+# else:
+#     print("Student are Not eligible for loan")
+
+if (high_income or good_credit) and not student:
+    print("Eligible for loan")
 else:
-    message = "You are not eligible for admission"
-print(message)
+    print("Not eligible for loan")
+
+# SHORT CIRCUIT EVALUATION
+if high_income or good_credit or not student:
+    print("Eligible for loan of $10,000")
 
 age = 22
-message = "You are eligible for admission" if age >= 18 else "You are not eligible for admission"
-print(message)
+# if age >= 18 and age <= 65:
+if 18 <= age <= 65:
+    print("You are Eligible")
+
+if 10 == "10":
+    print("a")
+elif "bag" > "apple" and "bag" > "cat":
+    print("b")
+else:
+    print("c")
