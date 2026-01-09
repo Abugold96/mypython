@@ -126,8 +126,30 @@ print(f)
 "bag" == "BAG"  # False
 
 # Conditional Statement
-temperature = 15
+temperature = 5
 if temperature > 30:
     print("It's a hot day")
     print("Drink plenty of water")
+elif temperature > 20:
+    print("It's a nice day")
+else:
+    print("It's a cold day")
 print("Enjoy your day")
+
+# Ternary Operator
+# age = 16
+# if age >= 18:
+#    print("You are eligible for admission")
+# else:
+#    print("You are not eligible for admission")
+
+age = 19
+if age >= 18:
+    message = "You are eligible for admission"
+else:
+    message = "You are not eligible for admission"
+print(message)
+
+age = 22
+message = "You are eligible for admission" if age >= 18 else "You are not eligible for admission"
+print(message)
